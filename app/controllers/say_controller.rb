@@ -1,5 +1,12 @@
 class SayController < ApplicationController
-  def index
-  	@yo = "yo Ho!"
+  def hello
+  
   end
+
+  def goodbye
+     end
+
+     def something
+     	
+     end
 end

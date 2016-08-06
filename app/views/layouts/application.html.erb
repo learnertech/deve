@@ -6,9 +6,239 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+
+
+<html lang="en">
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/zerogrid.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/responsiveslides.css" />
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_400.font.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_700.font.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/tms-0.3.js"></script>
+<script type="text/javascript" src="js/tms_presets.js"></script>
+<script type="text/javascript" src="js/jcarousellite.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+	<style type="text/css">
+		.bg{ behavior: url(js/PIE.htc); }
+	</style>
+  <![endif]-->
+	<!--[if lt IE 7]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
+		</div>
+	<![endif]-->
+	
+	<script src="js/responsiveslides.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			maxwidth: 960,
+			namespace: "centered-btns"
+		  });
+		});
+	</script>
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
+
+
+<body id="page1">
+<div class="body1">
+	<div class="body2">
+		<div class="main zerogrid">
+<!-- header -->
+			<header>
+				<div class="wrapper row">
+				<h1><a href="index.html" id="logo"><img src="assets/logo.png" /></a></h1>
+				<nav>
+					<ul id="menu">
+						<li id="nav1" class="active"><a href="index.html">Home<span>Welcome!</span></a></li>
+						<li id="nav2"><a href="News.html">News<span>Fresh</span></a></li>
+						<li id="nav3"><a href="Services.html">Services<span>for you</span></a></li>
+						<li id="nav4"><a href="Products.html">Products<span>The best</span></a></li>
+						<li id="nav5"><a href="Contacts.html">Contacts<span>Our Address</span></a></li>
+					</ul>
+				</nav>
+				</div>
+
+				<div class="wrapper row">
+					<div class="slider">
+					  	<div class="rslides_container">
+							<ul class="rslides" id="slider">
+								<li><img src="assets/img1.jpg" alt=""></li>
+								<li><img src="assets/img2.jpg" alt=""></li>
+								<li><img src="assets/img3.jpg" alt=""></li>
+								<li><img src="assets/img4.jpg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+<!-- header end-->
+		</div>
+	</div>
+</div>
+	<div class="body3">
+		<div class="main zerogrid">
+<!-- content -->
+			<article id="content">
+				<div class="wrapper row">
+					<section class="col-1-4">
+						<div class="wrap-col">
+							<h3><span class="dropcap">A</span>Business<span>planning</span></h3>
+							<p class="pad_bot1">A business plan is a formal statement of business goals, reasons they are attainable, and plans for reaching them. It may also contain background information about the organization or team attempting to reach those goals..</p>
+							<a href="#" class="link1">Read More</a>
+						</div>
+					</section>
+					<section class="col-1-4">
+						<div class="wrap-col">
+							<h3><span class="dropcap">B</span>Business<span>strategies</span></h3>
+							<p class="pad_bot1">This Strategic management is the highest level of managerial activity. Strategies are typically planned, crafted or guided by the Chief Executive Officer, approved or authorized by the Board of directors. .</p>
+							<a href="#" class="link1">Read More</a>
+						</div>
+					</section>
+					<section class="col-1-4">
+						<div class="wrap-col">
+							<h3><span class="dropcap">C</span>Powerful<span>analytics</span></h3>
+							<p class="pad_bot1">The analytics on demand and supply data can be used for maintaining procurement level and also for taking marketing decisions. Retail analytics gives us detailed customer insights along with insights into the business ..</p>
+							<a href="#" class="link1">Read More</a>
+						</div>
+					</section>
+					<section class="col-1-4">
+						<div class="wrap-col">
+							<h3><span class="dropcap">D</span>Worldwide<span>solutions</span></h3>
+							<p class="pad_bot1">BBB Business Reviews are provided solely to assist you in exercising your own best judgment. Information in this BBB Business Review is believed reliable but not guaranteed as to accuracy.</p>
+							<a href="#" class="link1">Read More</a>
+						</div>
+					</section>
+				</div>
+				<div class="wrapper row">
+					<section class="col-3-4">
+						<div class="wrap-col">
+							<h2 class="under">Welcome, dear visitor!</h2>
+							<div class="wrapper">
+								<figure class="left marg_right1"><img src="assets/page1_img1.jpg" alt=""></figure>
+								<p class="pad_bot1">Building great products depends on great people. There are more than 40,000 Googlers behind the tools that you use every day—from search to Chrome. Find out more about what it’s like to work at Google, where we work and who drives our company strategy below. .</p>
+								<p>
+										It’s really the people that make Google the kind of company it is. We hire people who are smart and determined, and we favor ability over experience. Although Googlers share common goals and visions for the company, we hail from all walks of life and speak dozens of languages, reflecting the global audience that we serve. And when not at work, Googlers pursue interests ranging from cycling to beekeeping, from frisbee to foxtrot. .</p>
+							</div>
+						</div>
+					</section>
+					<section class="col-1-4">
+						<div class="wrap-col">
+							<h2>Testimonials</h2>
+							<div class="testimonials">
+							<div id="testimonials">
+							  <ul>
+								<li>
+									<div>
+										"You can see what keywords are converting. You can see which ads are effective in driving traffic to the site. 
+									</div>
+									<span><strong class="color1">James Coloway,</strong> <br>
+									Director</span>
+								</li>
+								<li>
+									<div>
+										"AdWords has been my most effective means of advertising since the beginning—which is why it gets 90 percent of my advertising budget. 
+									</div>
+									<span><strong class="color1">Peace Lover</strong> <br>
+									Director</span>
+								</li>
+								<li>
+									<div>
+										 It's great that AdWords lets us target our ads to our delivery area..
+									</div>
+									<span><strong class="color1">Peace Lover</strong> <br>
+									Director</span>
+								</li>
+							  </ul>
+							</div>
+							<a href="#" class="up"></a>
+							<a href="#" class="down"></a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</article>
+		</div>
+	</div>
+	<div class="body4">
+		<div class="main zerogrid">
+			<article id="content2">
+				<div class="wrapper row">
+					<section class="col-1-4">
+					<div class="wrap-col">
+						<h4>Why Us?</h4>
+						<ul class="list1">
+							<li><a href="#">What we do for you </a></li>
+							<li><a href="#">What we do for businesses </a></li>
+							<li><a href="#">What we do for the web</a></li>
+						</ul>
+					</div>
+					</section>
+					<section class="col-1-4">
+					<div class="wrap-col">
+						<h4>Address</h4>
+						<ul class="address">
+							<li><span>Country:</span>USA</li>
+							<li><span>City:</span>San Diego</li>
+							<li><span>Phone:</span>8 800 154-45-67</li>
+							<li><span>Email:</span><a href="mailto:">progress@mail.com</a></li>
+						</ul>
+					</div>
+					</section>
+					<section class="col-1-4">
+					<div class="wrap-col">
+						<h4>Follow Us</h4>
+						<ul id="icons">
+							<li><a href="#"><img src="assets/icon1.jpg" alt="">Facebook</a></li>
+							<li><a href="#"><img src="assets/icon2.jpg" alt="">Twitter</a></li>
+							<li><a href="#"><img src="assets/icon3.jpg" alt="">LinkedIn</a></li>
+							<li><a href="#"><img src="assets/icon4.jpg" alt="">Delicious</a></li>
+						</ul>
+					</div>
+					</section>
+					<section class="col-1-4">
+					<div class="wrap-col">
+						<h4>Newsletter</h4>
+						<form id="newsletter" method="post">
+							<div>
+								<div class="wrapper">
+									<input class="input" type="text" value="Type Your Email Here"  onblur="if(this.value=='') this.value='Type Your Email Here'" onfocus="if(this.value =='Type Your Email Here' ) this.value=''" >
+								</div>
+								<a href="#" class="button" onclick="document.getElementById('newsletter').submit()">Subscribe</a>
+							</div>
+						</form>
+					</div>
+					</section>
+				</div>
+			</article>
+<!-- content end -->
+		</div>
+	</div>
+
+
+	<%= yield %>
+	
+		
+</body>
 </html>
+  
